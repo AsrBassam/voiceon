@@ -497,4 +497,5 @@ client.on("guildCreate", guild => {
   .setTimestamp()
   client.channels.get("476342429575020544").send(embed)
 });
+
 client.login(process.env.TOKEN);
